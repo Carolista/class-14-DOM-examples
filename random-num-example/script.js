@@ -37,9 +37,13 @@ window.addEventListener("load", function () {
     // Test listener with log to console
     console.log("I clicked the button!");
 
-    
+    // Change innerHTML of randomNum to a number between 1-50
+    let num = Math.ceil(Math.random() * 50);
+    randomNum.innerHTML = num;
+
     // TODO #4 - Change color of number to yellowgreen if even or coral if odd
     // BONUS: Also change the page background to match (use document.body)
+
   
     // TODO #5 - If the random number is evenly divisible by 3, add the spinning class; otherwise remove it
   
