@@ -43,7 +43,13 @@ window.addEventListener("load", function () {
 
     // TODO #4 - Change color of number to yellowgreen if even or coral if odd
     // BONUS: Also change the page background to match (use document.body)
-
+    if (num % 2 === 0) {
+      randomNum.style.color = "yellowgreen";
+      document.body.style.backgroundColor = "yellowgreen";
+    } else {
+      randomNum.style.color = "coral";
+      document.body.style.backgroundColor = "coral";
+    }
   
     // TODO #5 - If the random number is evenly divisible by 3, add the spinning class; otherwise remove it
   
