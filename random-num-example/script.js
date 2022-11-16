@@ -52,6 +52,11 @@ window.addEventListener("load", function () {
     }
   
     // TODO #5 - If the random number is evenly divisible by 3, add the spinning class; otherwise remove it
+    if (num % 3 === 0) {
+      numButton.classList.add('spinning');
+    } else {
+      numButton.classList.remove('spinning');
+    }
   
     // TODO #6 - Trigger alert if number is evenly divisible by 5
     // NOTE: Use setTimeout() to deal with race condition; 50ms is plenty of time to delay
