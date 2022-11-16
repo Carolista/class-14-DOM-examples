@@ -60,8 +60,14 @@ window.addEventListener("load", function () {
   
     // TODO #6 - Trigger alert if number is evenly divisible by 5
     // NOTE: Use setTimeout() to deal with race condition; 50ms is plenty of time to delay
+    if (num % 5 === 0) {
+      setTimeout(function() {
+        alert(`
+        The number ${num} is a multiple of 5!
+        `);
+      }, 50);
+    }
   });
-
 
   // As part of TODO #3: Take a look at object content using console.log and console.dir
   console.log("numButton", numButton);
