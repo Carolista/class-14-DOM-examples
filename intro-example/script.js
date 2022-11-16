@@ -10,7 +10,9 @@ window.addEventListener('load', function() {
   console.log(intro.style.color);
   
   // TODO: Change the values of the text, color, and font size
-
+  intro.innerHTML = 'Ready to go!';
+  intro.style.color = 'green';
+  intro.style.fontSize = '12pt';
 
   // TODO: Make the text bold and italicized as well
 
