@@ -15,6 +15,8 @@ window.addEventListener('load', function() {
   intro.style.fontSize = '12pt';
 
   // TODO: Make the text bold and italicized as well
+  intro.style.fontWeight = 'bold';
+  intro.style.fontStyle = 'italic';
   
   // TODO: Log the intro element to see the inline styling added
   console.log(intro);
