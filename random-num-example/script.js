@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
   const numBox = document.getElementById("num-box");
   const randomNum = document.getElementById("random-num");
 
-  
+
   /* CODE TO RUN IMMEDIATELY */
 
   // Run any code needed to display things on page when it first loads
@@ -32,14 +32,20 @@ window.addEventListener("load", function () {
 
   // TODO #3 - Add a click event listener for the button to generate a random number
   // Will also need to make the div holding the number visible
+  numButton.addEventListener("click", function () {
 
-  // TODO #4 - Change color of number to yellowgreen if even or coral if odd
-  // BONUS: Also change the page background to match (use document.body)
+    // Test listener with log to console
+    console.log("I clicked the button!");
 
-  // TODO #5 - If the random number is evenly divisible by 3, add the spinning class; otherwise remove it
-
-  // TODO #6 - Trigger alert if number is evenly divisible by 5
-  // NOTE: Use setTimeout() to deal with race condition; 50ms is plenty of time to delay
+    
+    // TODO #4 - Change color of number to yellowgreen if even or coral if odd
+    // BONUS: Also change the page background to match (use document.body)
+  
+    // TODO #5 - If the random number is evenly divisible by 3, add the spinning class; otherwise remove it
+  
+    // TODO #6 - Trigger alert if number is evenly divisible by 5
+    // NOTE: Use setTimeout() to deal with race condition; 50ms is plenty of time to delay
+  });
 
 
   // As part of TODO #3: Take a look at object content using console.log and console.dir
