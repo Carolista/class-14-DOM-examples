@@ -12,6 +12,7 @@ window.addEventListener("load", function () {
   // There are exceptions - like if the element isn't on the page yet because it gets added later
   
   // Object needed for TODO #2
+  const date = document.getElementById("date");
 
   // Objects needed for TODO #3
 
@@ -22,7 +23,7 @@ window.addEventListener("load", function () {
   // Run any code needed to display things on page when it first loads
 
   // TODO #2 - Add to existing text using new Date object and .toLocaleDateString() method
-
+  date.innerHTML += ` ${new Date().toLocaleDateString()}`;
 
 
   /* EVENT LISTENERS */
