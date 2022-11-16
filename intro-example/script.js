@@ -22,5 +22,9 @@ window.addEventListener('load', function() {
   console.log(intro);
 
   // TODO: Log all five properties to see their values
-  
+  console.log(intro.innerHTML);
+  console.log(intro.style.color);
+  console.log(intro.style.fontSize);
+  console.log(intro.style.fontWeight);
+  console.log(intro.style.fontStyle);  
 });
