@@ -15,9 +15,11 @@ window.addEventListener("load", function () {
   const date = document.getElementById("date");
 
   // Objects needed for TODO #3
+  const numButton = document.getElementById("num-button");
+  const numBox = document.getElementById("num-box");
+  const randomNum = document.getElementById("random-num");
 
-
-
+  
   /* CODE TO RUN IMMEDIATELY */
 
   // Run any code needed to display things on page when it first loads
@@ -40,8 +42,12 @@ window.addEventListener("load", function () {
   // NOTE: Use setTimeout() to deal with race condition; 50ms is plenty of time to delay
 
 
-
   // As part of TODO #3: Take a look at object content using console.log and console.dir
-
+  console.log("numButton", numButton);
+  console.dir(numButton);
+  console.log("numBox", numBox);
+  console.dir(numBox);
+  console.log("randomNum", randomNum);
+  console.dir(randomNum);
   
 });
