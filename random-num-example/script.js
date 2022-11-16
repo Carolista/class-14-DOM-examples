@@ -1,7 +1,9 @@
 window.addEventListener("load", function () {
 
   // TODO #1 - Take a look at native global objects, window and document
-
+  console.log(window);
+  console.log("document", document);
+  console.dir(document);
 
 
   /* CREATE OBJECTS */
