@@ -1,4 +1,7 @@
 window.addEventListener('load', function() {  
+
+  // TODO: Take a look at native global objects, window and document
+  
   
   const intro = document.getElementById('intro');
 
