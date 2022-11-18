@@ -27,7 +27,7 @@ window.addEventListener("load", function () {
   // TODO #3 - Change color of number to yellowgreen if even or coral if odd
   // BONUS: Also change the page background to match (use document.body)
 
-  // TODO #4 - If the random number is evenly divisible by 3, add the spinning class; otherwise remove it
+  // TODO #4 - If the random number is evenly divisible by 3, add the spinning class to the button; otherwise remove it
 
   // TODO #5 - Trigger alert if number is evenly divisible by 5
   // NOTE: Use setTimeout() to deal with race condition; 50ms is plenty of time to delay
